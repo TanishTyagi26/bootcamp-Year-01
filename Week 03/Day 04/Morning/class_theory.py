@@ -39,8 +39,29 @@ class Shape:
     def area(self):
         return 0
 
+    def describe(self):
+        return f"{self.color} shape , area={self.area():.2f} "
+
+class Circle(Shape):
+        def __init__(self,radius,color="blue"):
+            super().__init__(color)
+            self.radius=radius
+
+        def area(self):
+            return 3.14159*self.radius**2
+
     
         
 
-class Circle:
-    def __init__
+class Rectangle(Shape):
+    def __init__(self,w,h,color="red"):
+        super().__init__(color)
+        self.w,self.h=w,h
+
+    def area(self):
+        return self.w*self.h
+
+
+shapes=[Circle(5),Rectangle(4,6)]
+for sh in shapes:
+    print(sh.describe())            # polymorphic call
