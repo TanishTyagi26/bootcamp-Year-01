@@ -9,7 +9,7 @@
 #extension : apply discounts : above 50,000-> 10% ,,,, above 25000 -> 5%
 
 def billing_cart ():
-    for i in range (0,3):
+    for i in range (0,2):
         price_cart = []
         product_name = str(input("enter your product name :"))
         qty = int(input("enter your product Quantity :"))

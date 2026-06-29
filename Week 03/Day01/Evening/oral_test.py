@@ -1,1 +1,0 @@
-#mam ne oral test lia tha 

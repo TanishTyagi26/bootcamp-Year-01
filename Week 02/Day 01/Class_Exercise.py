@@ -8,12 +8,12 @@
 
 
 # #wap to find the max among the two no.
-# # num1= int(input("enter your first number :"))
-# # num2= int(input("enter your second number :"))
-# # if num2 >num1 :
-# #     print(f"{num2} is greater than {num1}")
-# # else:
-# #     print(f"{num1} is greater than {num2}")
+# num1= int(input("enter your first number :"))
+# num2= int(input("enter your second number :"))
+# if num2 >num1 :
+#     print(f"{num2} is greater than {num1}")
+# else:
+#     print(f"{num1} is greater than {num2}")
 
 
 # #ques 2 wap that takes input any no. and adds 7 if odd else add 4
@@ -48,14 +48,14 @@
 
 # print("Guess a number between 1 and 5")
 
-# # while True:
-# #     guess = int(input("Enter your guess: "))
+# while True:
+#     guess = int(input("Enter your guess: "))
 
-# #     if guess == secret_number:
-# #         print("Congratulations! You guessed correctly.")
-# #         break
-# #     else:
-# #         print("Wrong guess. Try again!")
+#     if guess == secret_number:
+#         print("Congratulations! You guessed correctly.")
+#         break
+#     else:
+#         print("Wrong guess. Try again!")
 
 
 # num=5
@@ -71,23 +71,23 @@
 
 
 
-# _______________________________________________________________________________
+# # _______________________________________________________________________________
 
 
 
-# if (a>b):
-#     if a>c:
-#         print("A is max ")
-#     else:
-#         print("C is max")
-# else:
-#     if b>c :
-#         print("B is max")
-#     else:
-#         print(" C is max")
+# # if (a>b):
+# #     if a>c:
+# #         print("A is max ")
+# #     else:
+# #         print("C is max")
+# # else:
+# #     if b>c :
+# #         print("B is max")
+# #     else:
+# #         print(" C is max")
 
 
-# ________________________________________________________________
+# # ________________________________________________________________
 # while True:
 #     num = int(input("enter your  number :"))
 #     if num >=0:
@@ -104,10 +104,11 @@
 #         if num%2 == 0:
 #                 print(f"{num } is even no.")
 #         else:
-                # print(f"{num} is odd")
+#                 print(f"{num} is odd")
 
 
-# ________________________________________________________________
+# # ________________________________________________________________
+
 # while True:
 #     num1 = int(input("enter your first  number :"))
 
@@ -118,13 +119,13 @@
 #             print(f"{num1} is max. ")
 #         else:
 #             print(f"{num3} is max. ")
-#     else:0
+#     else:
 #         if num2>num3 :
 #             print(f"{num2} is max. ")
 #         else:
 #             print(f"{num3} is max. ")
 
-# ________________________________________________________________
+# # ________________________________________________________________
 # while True:
 #     score = float(input("enter your score: "))
 #     if score >=90 and score <=100 :
@@ -139,7 +140,7 @@
 #         print(f"grade is : F")
 #     else:
 #         print("invalid input")
-# ________________________________________________________________
+# # ________________________________________________________________
 
 
 # for i in range (1,11):
@@ -147,7 +148,7 @@
 #         print(i*j , end="\t")
 #     print()
 
-#----------------- or -----------------------
+# # ----------------- or -----------------------
 
 # num = 1
 # while num <=10:
@@ -159,13 +160,13 @@
 #     num+=1
 
 
-# ________________________________________________________________
+# # ________________________________________________________________
 
 # lst=[2,4,5,6,7,8,9,10]
 # for i in lst :
 #     print(i*i,end=" ")
 
-# ________________________________________________________________
+# # ________________________________________________________________
 # sum=0
 # i=1
 # while i<=50 :
@@ -175,7 +176,7 @@
 # print(sum)
 
 
-# ________________________________________________________________
+# # ________________________________________________________________
 
 
 
@@ -185,10 +186,10 @@
 #         continue 
 #     print(i ,end=" ")
     
-# ________________________________________________________________
+# # ________________________________________________________________
 
     
-#wap to add number entered by user
+# # wap to add number entered by user
 # u = input("Enter numbers separated by commas: ").split(",")
 # sum = 0
 # for item in u:
@@ -199,7 +200,7 @@
 # print("The sum of even numbers is:", sum)
 
 
-# ________________________________________________________________
+# # ________________________________________________________________
 
 # import random
 
@@ -216,7 +217,7 @@
 # print("Number is:", num)
 # print("Total numbers generated:", count)
 
-# ________________________________________________________________
+# # ________________________________________________________________
 
 # def fact(n):
 #     if n == 1:
@@ -224,8 +225,7 @@
 #     else:
 #         return n*fact(n-1)
 # print(f"{fact(5) } : is the factorial of 5")
-
-# ________________________________________________________________
+# # ________________________________________________________________
 # def temperature_converter(temp, choice):
 #     if choice == 1:
 #         return (temp * 9 / 5) + 32  # Celsius to Fahrenheit
@@ -239,8 +239,8 @@
 
 # print(temperature_converter(temp, choice))
 
-# ________________________________________________________________
-# wap to detect a pallindrome text 
+# # ________________________________________________________________
+# # wap to detect a pallindrome text 
 # while True:
 #     Word = input("Enter a string: ")
 
@@ -249,8 +249,8 @@
 #     else:
 #         print("Not a palindrome")
 
-# ________________________________________________________________
-#wap for fibonacci series
+# # ________________________________________________________________
+# # wap for fibonacci series
 # def fib(num):
 #     if num == 0:
 #         return 0
